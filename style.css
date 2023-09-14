@@ -194,6 +194,9 @@ section{
 }
 .socials li{
     margin: 0 10px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
 }
 .socials a{
     text-decoration: none;
@@ -201,10 +204,14 @@ section{
     border: 1.1px solid white;
     padding: 7px;
     border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    width: 45px; 
+    height: 45px;
 }
 .socials a i{
-    font-size: 1.1rem;
-    width: 20px;
+    font-size: 1.5rem;
     transition: color .4s ease;
 }
 .socials a:hover i{
